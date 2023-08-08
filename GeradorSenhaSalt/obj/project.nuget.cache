@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "bQ/pk4eXl6P+I8IGcTe3OdmjWooS27ettw2Wr1FVzlQ2FUL2rXzLuXnM7fVXNx7WigPxbVKyDcM/nrn+buLJPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre.camargo\\Desktop\\Projetos\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0\\microsoft.aspnetcore.components.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.0\\microsoft.aspnetcore.components.analyzers.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.0\\microsoft.aspnetcore.components.forms.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.0\\microsoft.aspnetcore.components.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\microsoft.aspnetcore.metadata.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\microsoft.jsinterop\\7.0.0\\microsoft.jsinterop.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\syncfusion.blazor\\21.2.8\\syncfusion.blazor.21.2.8.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\syncfusion.blazor.core\\21.2.8\\syncfusion.blazor.core.21.2.8.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\syncfusion.excelexport.net.core\\21.2.8\\syncfusion.excelexport.net.core.21.2.8.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\syncfusion.licensing\\21.2.8\\syncfusion.licensing.21.2.8.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\syncfusion.pdfexport.net.core\\21.2.8\\syncfusion.pdfexport.net.core.21.2.8.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\andre.camargo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

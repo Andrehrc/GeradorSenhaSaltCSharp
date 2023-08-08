@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andre.camargo\\Desktop\\Projetos\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andre.camargo\\Desktop\\Projetos\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre.camargo\\Desktop\\Projetos\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt.csproj",
+        "projectName": "GeradorSenhaSalt",
+        "projectPath": "C:\\Users\\andre.camargo\\Desktop\\Projetos\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt.csproj",
+        "packagesPath": "C:\\Users\\andre.camargo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre.camargo\\Desktop\\Projetos\\GeradorSenhaSalt\\GeradorSenhaSalt\\GeradorSenhaSalt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre.camargo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[21.2.8, )"
+            },
+            "Syncfusion.Blazor.Core": {
+              "target": "Package",
+              "version": "[21.2.8, )"
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[21.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

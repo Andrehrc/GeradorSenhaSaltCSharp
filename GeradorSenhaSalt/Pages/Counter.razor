@@ -1,0 +1,46 @@
+﻿@page "/"
+@using EscritorioVirtual.Api.Utils;
+@using EscritorioVirtual.Shared.Models;
+@using GeradorSenhaSalt.Models;
+
+<PageTitle>Gerador Senha Salt</PageTitle>
+
+<div style="margin-top: 20px">
+<p role="status">Digite sua Senha aqui</p>
+<input style="width: 500px" @bind-value="UsuarioObj.Senha">Digite sua Senha aqui</input>
+</div>
+
+<div style="margin-top: 20px">
+<p role="status">Salt</p>
+<input style="width: 500px" @bind-value="LoginObj.Salt">Salt</input>
+</div>
+
+<div style="margin-top: 20px">
+<p role="status">Senha criptografada</p>
+<input style="width: 500px" @bind-value="LoginObj.Senha">Senha criptografada</input>
+</div>
+
+<div style="margin-top: 20px">
+<button class="btn btn-primary" @onclick="CreateUser">Gerar Senha</button>
+</div>
+
+
+@code {
+    private CriaUsuarioDTO UsuarioObj { get; set; } = new();
+    private Login LoginObj { get; set; } = new();
+
+    public async Task CreateUser()
+    {
+        if (UsuarioObj.Senha is null)
+            return;
+        var salt = LoginUtils.GerarSalt();
+        LoginObj = new Login
+            {
+                Nome = UsuarioObj.Nome,
+                Username = UsuarioObj.Usuario,
+                Salt = LoginUtils.ToString(salt),
+                Senha = LoginUtils.GerarHash(UsuarioObj.Senha, salt)
+            };
+
+    }
+}
